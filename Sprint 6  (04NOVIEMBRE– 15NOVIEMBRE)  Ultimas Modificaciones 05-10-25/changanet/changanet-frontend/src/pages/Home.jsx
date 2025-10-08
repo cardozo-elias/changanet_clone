@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -180,12 +181,12 @@ const Home = () => {
             Únete a miles de usuarios que ya confían en Changánet para sus necesidades diarias y contribuyen a un futuro mejor.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-white text-emerald-600 px-10 py-5 rounded-2xl font-bold hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-glow transform hover:scale-105 text-lg">
+            <Link to="/profesionales" className="bg-white text-emerald-600 px-10 py-5 rounded-2xl font-bold hover:bg-gray-100 transition-all duration-300 shadow-2xl hover:shadow-glow transform hover:scale-105 text-lg text-center">
               Buscar Profesionales
-            </button>
-            <button className="border-2 border-white text-white px-10 py-5 rounded-2xl font-bold hover:bg-white hover:text-emerald-600 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 text-lg">
+            </Link>
+            <Link to="/registro-profesional" className="border-2 border-white text-white px-10 py-5 rounded-2xl font-bold hover:bg-white hover:text-emerald-600 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 text-lg text-center">
               Convertirse en Profesional
-            </button>
+            </Link>
           </div>
         </div>
       </div>
