@@ -1,2 +1,0 @@
-# ChangaNet
-UNAB Proyecto Changanet
